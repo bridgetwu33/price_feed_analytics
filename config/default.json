@@ -1,0 +1,23 @@
+{
+    "config": {
+      "strict": false
+    },
+    "PORT": 9000,
+    "DATABASE_URL": "127.0.0.1",
+    "DATABASE_PORT": "3306",
+    "DB_USERNAME": "price",
+    "DB_PASSWORD": "price",
+    "DB_NAME": "crypto_price",
+    "DB_DIALECT": "mysql", 
+    "DB_LOGGING": false, 
+    "DB_POOL_MAX": 1, 
+    "DB_POOL_MIN": 0,
+    "DB_POOL_ACQUIRE": 30000, 
+    "DB_POOL_IDLE": 10000,
+    "LOG_FILE_NAME": "crypto-price",
+    "LOG_FILE_LOCATION": "/app/logs/",
+    "APP_NAME": "crypto-price",
+    "CHAINLINK_PRICE_ETH_USD_URL": "http://127.0.0.1:3000/api/price?contractAddress=0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419",
+    "ETHEREUM_MAINNET_KEY": ""
+  
+  }
